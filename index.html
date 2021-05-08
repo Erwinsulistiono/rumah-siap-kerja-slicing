@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Rumah Siap Kerja</title>
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-icon/bootstrap-icons.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <link rel="icon" href="/favicon.ico" />
+  </head>
+
+  <body>
+    <nav class="bg-second">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <a href="#" class="link-img clr-second">
+            <img
+              src="assets/img/logo.svg"
+              alt="logo-rsk"
+              width="50"
+              height="50"
+            />
+          </a>
+          <a href="#" class="link-img clr-second">
+            <img
+              src="assets/img/logo-prakerja.png"
+              alt="logo-prakerja"
+              width="100"
+              height="54"
+            />
+          </a>
+        </div>
+        <div class="nav-menu">
+          <div class="left w-45">
+            <a href="#"> Kelas </a>
+            <a href="#"> Lowongan </a>
+            <div class="search-container">
+              <a href="#" class="nav-search"> Cari Kelas</a>
+              <i class="bi">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16">
+                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg>
+              </i>
+            </div>
+          </div>
+          <div class="right w-40">
+            <a href="#"> Kawan Cuan </a>
+            <button type="button" class="nav-button bg-white clr-prime"> Daftar </a>
+            <button type="button" class="nav-button bg-prime clr-white"> Masuk </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="container">
+      <div class="category">
+        <div class="cat-box">
+          <div class="cat-card">
+            <img
+              src="assets/img/cat1.svg"
+              alt="logo-cat-1"
+              width="20"
+              height="20"
+            />
+            <p class="cat-name">Bahasa Asing</p>
+          </div>
+        </div>
+        <div class="cat-box">
+          <div class="cat-card">
+            <img
+              src="assets/img/cat2.svg"
+              alt="logo-cat-2"
+              width="20"
+              height="20"
+            />
+            <p class="cat-name">Bisnis & Keuangan</p>
+          </div>
+        </div>
+        <div class="cat-box">
+          <div class="cat-card">
+            <img
+              src="assets/img/cat3.svg"
+              alt="logo-cat-3"
+              width="20"
+              height="20"
+            />
+            <p class="cat-name">Industri Kreatif</p>
+          </div>
+        </div>
+        <div class="cat-box">
+          <div class="cat-card">
+            <img
+              src="assets/img/cat4.svg"
+              alt="logo-cat-4"
+              width="20"
+              height="20"
+            />
+            <p class="cat-name">Kesehatan & Kecantikan</p>
+          </div>
+        </div>
+        <div class="cat-box">
+          <div class="cat-card">
+            <img
+              src="assets/img/cat5.svg"
+              alt="logo-cat-5"
+              width="20"
+              height="20"
+            />
+            <p class="cat-name">Pariwisata & Pelayanan</p>
+          </div>
+        </div>
+        <div class="cat-box">
+          <div class="cat-card">
+            <img
+              src="assets/img/cat6.svg"
+              alt="logo-cat-6"
+              width="20"
+              height="20"
+            />
+            <p class="cat-name">Pemasaran</p>
+          </div>
+        </div>
+        <div class="cat-box">
+          <div class="cat-card">
+            <img
+              src="assets/img/cat7.svg"
+              alt="logo-cat-7"
+              width="20"
+              height="20"
+            />
+            <p class="cat-name">Persiapan Pengembangan Karir</p>
+          </div>
+        </div>
+        <div class="cat-box">
+          <div class="cat-card">
+            <img
+              src="assets/img/cat8.svg"
+              alt="logo-cat-8"
+              width="20"
+              height="20"
+            />
+            <p class="cat-name">Pertanian dan Perikanan</p>
+          </div>
+        </div>
+        <div class="cat-box">
+          <div class="cat-card">
+            <img
+              src="assets/img/cat9.svg"
+              alt="logo-cat-9"
+              width="20"
+              height="20"
+            />
+            <p class="cat-name">Teknologi Informasi</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">      
+        <div class="carousel-container">
+          
+          <div class="carousel-image-container">
+            <img 
+              src="assets/img/slider1.jpg" 
+              width="1140" 
+              height="400" 
+              alt="image-slider" 
+            />
+            <img 
+              src="assets/img/slider2.jpg" 
+              width="1140" 
+              height="400" 
+              alt="image-slider" 
+            />
+            <ul class="carousel-dot"></ul>
+          </div>
+          
+          <div class="button-carousel-container">
+            <div class="carousel-arrow" onclick="moveLeft()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 16 16">
+                <path style="fill:#ffc709" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+              </svg>
+            </div>
+            <div class="carousel-arrow" onclick="moveRight()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 16 16">
+                <path style="fill:#ffc709;" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="container">
+      <div class="prakerja-container">
+        <div class="prakerja-element bg-prime">
+          <div class="w-40 bg-prime">
+            <img
+              class="left bg-prime"
+              src="assets/img/logo-prakerja-putih.png"
+              alt="logo-prakerja"
+              width="120"
+              height="65.5"
+            />
+          </div>
+          <div class="right w-60 prakerja-menu bg-prime">
+            <div class="left w-45 prakerja-button-container">
+              <a href="#" class="prakerja-button clr-black">
+                <img
+                  src="assets/img/prakerja-1.svg"
+                  alt="logo-cat-6"
+                  width="20"
+                  height="16"
+                />
+                Tukar Voucher Prakerja
+              </a>
+            </div>
+            <div class="right w-45 prakerja-button-container">
+              <a href="#" class="prakerja-button clr-black">
+                <img
+                  src="assets/img/prakerja-2.svg"
+                  alt="logo-cat-6"
+                  width="20"
+                  height="16"
+                />
+                Cek Sertifikat Kelas
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white">
+      <div class="container bg-white produk-rsk">
+        <div class="produk-header bg-white">
+          <h3 class="left">Kelas Terbaru</h3>
+          <a href="#" class="right clr-prime link-view-all">Lihat Semua</a>
+        </div>
+
+        <!-- list kelas -->
+        <div class="produk-body bg-white">
+          <div class="produk-card w-25">
+            <div class="produk-card-header bg-image-1">
+            </div>
+            <div class="produk-card-body bg-white">
+              <p class="produk-card-title">Bisnis Mudah Jadi Dropshipper</p>
+              <div class="produk-card-info bg-white">
+                <p class="left produk-card-price">Rp. 300.000</p>
+                <div class="right bg-white">
+                  <img
+                    src="assets/img/star.svg"
+                    alt="rating"
+                    width="14"
+                    height="14"
+                  />
+                  <p class="left produk-card-rating">4.9</p>
+                </div>
+              </div>
+              <p class="produk-card-category">Kelas Video</p>
+            </div>
+          </div>
+
+          <div class="produk-card w-25">
+            <div class="produk-card-header bg-image-2">
+            </div>
+            <div class="produk-card-body bg-white">
+              <p class="produk-card-title">Untung Cepat Bisnis Hewan Kurban</p>
+              <div class="produk-card-info bg-white">
+                <p class="left produk-card-price">Rp. 250.000</p>
+                <div class="right bg-white">
+                  <img
+                    src="assets/img/star.svg"
+                    alt="rating"
+                    width="14"
+                    height="14"
+                  />
+                  <p class="left produk-card-rating">NEW</p>
+                </div>
+              </div>
+              <p class="produk-card-category">Kelas Video</p>
+            </div>
+          </div>
+          <div class="produk-card w-25">
+            <div class="produk-card-header bg-image-3">
+            </div>
+            <div class="produk-card-body bg-white">
+              <p class="produk-card-title">Bisnis Ternak Lele & Hidroponik Dalam Ember</p>
+              <div class="produk-card-info bg-white">
+                <p class="left produk-card-price">Rp. 250.000</p>
+                <div class="right bg-white">
+                  <img
+                    src="assets/img/star.svg"
+                    alt="rating"
+                    width="14"
+                    height="14"
+                  />
+                  <p class="left produk-card-rating">NEW</p>
+                </div>
+              </div>
+              <p class="produk-card-category">Kelas Video</p>
+            </div>
+          </div>
+          <div class="produk-card w-25">
+            <div class="produk-card-header bg-image-4">
+            </div>
+            <div class="produk-card-body bg-white">
+              <p class="produk-card-title">Bisnis Mudah Hidroponik Cabai</p>
+              <div class="produk-card-info bg-white">
+                <p class="left produk-card-price">Rp. 100.000</p>
+                <div class="right bg-white">
+                  <img
+                    src="assets/img/star.svg"
+                    alt="rating"
+                    width="14"
+                    height="14"
+                  />
+                  <p class="left produk-card-rating">NEW</p>
+                </div>
+              </div>
+              <p class="produk-card-category">Kelas Video</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container bg-white produk-rsk">
+        <div class="produk-header bg-white">
+          <h3 class="left">Bisnis & Keuangan</h3>
+          <a href="#" class="right clr-prime link-view-all">Lihat Semua</a>
+        </div>
+
+        <!-- list kelas -->
+        <div class="produk-body bg-white">
+          <div class="produk-card w-25">
+            <div class="produk-card-header bg-image-5">
+            </div>
+            <div class="produk-card-body bg-white">
+              <p class="produk-card-title">Cara Kreatif Membangun Bisnis</p>
+              <div class="produk-card-info bg-white">
+                <p class="left produk-card-price">Rp. 250.000</p>
+                <div class="right bg-white">
+                  <img
+                    src="assets/img/star.svg"
+                    alt="rating"
+                    width="14"
+                    height="14"
+                  />
+                  <p class="left produk-card-rating">4.9</p>
+                </div>
+              </div>
+              <p class="produk-card-category">Interaktif, 10 Mei 2021</p>
+            </div>
+          </div>
+
+          <div class="produk-card w-25">
+            <div class="produk-card-header bg-image-6">
+            </div>
+            <div class="produk-card-body bg-white">
+              <p class="produk-card-title">Kiat Yahud Perkuat UKM Dimasa Sulit ...</p>
+              <div class="produk-card-info bg-white">
+                <p class="left produk-card-price clr-free">Gratis!</p>
+                <div class="right bg-white">
+                  <img
+                    src="assets/img/star.svg"
+                    alt="rating"
+                    width="14"
+                    height="14"
+                  />
+                  <p class="left produk-card-rating">NEW</p>
+                </div>
+              </div>
+              <p class="produk-card-category">Jakarta, 10 April 2020</p>
+            </div>
+          </div>
+          <div class="produk-card w-25">
+            <div class="produk-card-header bg-image-7">
+            </div>
+            <div class="produk-card-body bg-white">
+              <p class="produk-card-title">Online Class : Supply Chain sebagai peluang dimasa sulit</p>
+              <div class="produk-card-info bg-white">
+                <p class="left produk-card-price clr-free">Gratis!</p>
+                <div class="right bg-white">
+                  <img
+                    src="assets/img/star.svg"
+                    alt="rating"
+                    width="14"
+                    height="14"
+                  />
+                  <p class="left produk-card-rating">NEW</p>
+                </div>
+              </div>
+              <p class="produk-card-category">Jakarta, 3 Apr 2020</p>
+            </div>
+          </div>
+          <div class="produk-card w-25">
+            <div class="produk-card-header bg-image-8">
+            </div>
+            <div class="produk-card-body bg-white">
+              <p class="produk-card-title">Online Class : Tips dan Trick Mengejar Investor di Masa...</p>
+              <div class="produk-card-info bg-white">
+                <p class="left produk-card-price clr-free">!Gratis</p>
+                <div class="right bg-white">
+                  <img
+                    src="assets/img/star.svg"
+                    alt="rating"
+                    width="14"
+                    height="14"
+                  />
+                  <p class="left produk-card-rating">5.0</p>
+                </div>
+              </div>
+              <p class="produk-card-category">Jakarta, 1 Apr 2020</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container bg-white produk-rsk">
+        <div class="produk-header bg-white">
+          <h3 class="left">Pemasaran</h3>
+          <a href="#" class="right clr-prime link-view-all">Lihat Semua</a>
+        </div>
+
+        <!-- list kelas -->
+        <div class="produk-body bg-white">
+          <div class="produk-card w-25">
+            <div class="produk-card-header bg-image-9">
+            </div>
+            <div class="produk-card-body bg-white">
+              <p class="produk-card-title">UX Remote Research</p>
+              <div class="produk-card-info bg-white">
+                <p class="left produk-card-price">Rp. 150.000</p>
+                <div class="right bg-white">
+                  <img
+                    src="assets/img/star.svg"
+                    alt="rating"
+                    width="14"
+                    height="14"
+                  />
+                  <p class="left produk-card-rating">5.0</p>
+                </div>
+              </div>
+              <p class="produk-card-category">Webinar, 7 Nov 2021</p>
+            </div>
+          </div>
+
+          <div class="produk-card w-25">
+            <div class="produk-card-header bg-image-10">
+            </div>
+            <div class="produk-card-body bg-white">
+              <p class="produk-card-title">Anak Muda Berkarya di Era Digitalisasi</p>
+              <div class="produk-card-info bg-white">
+                <p class="left produk-card-price clr-free">Gratis!</p>
+                <div class="right bg-white">
+                  <img
+                    src="assets/img/star.svg"
+                    alt="rating"
+                    width="14"
+                    height="14"
+                  />
+                  <p class="left produk-card-rating">NEW</p>
+                </div>
+              </div>
+              <p class="produk-card-category">Webinar, 17 Oktober 2020</p>
+            </div>
+          </div>
+          <div class="produk-card w-25">
+            <div class="produk-card-header bg-image-11">
+            </div>
+            <div class="produk-card-body bg-white">
+              <p class="produk-card-title">Kupas Tuntas: Jago Bisnis Omset 10 Juta Dalam 2 Jam</p>
+              <div class="produk-card-info bg-white">
+                <p class="left produk-card-price clr-free">Rp. 299.000</p>
+                <div class="right bg-white">
+                  <img
+                    src="assets/img/star.svg"
+                    alt="rating"
+                    width="14"
+                    height="14"
+                  />
+                  <p class="left produk-card-rating">NEW</p>
+                </div>
+              </div>
+              <p class="produk-card-category">Webinar, 8 Okt 2020</p>
+            </div>
+          </div>
+          <div class="produk-card w-25">
+            <div class="produk-card-header bg-image-12">
+            </div>
+            <div class="produk-card-body bg-white">
+              <p class="produk-card-title">Online Class : Membuat Website Gratis Untuk Bisnis</p>
+              <div class="produk-card-info bg-white">
+                <p class="left produk-card-price clr-free">Gratis!</p>
+                <div class="right bg-white">
+                  <img
+                    src="assets/img/star.svg"
+                    alt="rating"
+                    width="14"
+                    height="14"
+                  />
+                  <p class="left produk-card-rating">NEW</p>
+                </div>
+              </div>
+              <p class="produk-card-category">Jakarta, 27 Mei 2020</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="container lowongan-section">
+      <div class="lowongan-header">
+        <h3 class="left">Kelas Terbaru</h3>
+        <a href="#" class="right clr-prime link-view-all">Lihat Semua</a>
+      </div>
+      <div class="lowongan-body">
+        <div class="lowongan-logo">
+          <img
+            src="assets/img/img-blank.jpg"
+            alt="lowongan-logo"
+            width="130"
+            height="130"
+            class="lowongan-rsk"
+          />
+        </div>
+        <div class="lowongan-detail">
+          <p class="lowongan-title">Java Web Developer</p>
+          <p class="lowongan-pt">PT. Alba Integrasi Solusi</p>
+          <p class="lowongan-lokasi">Jakarta Barat</p>
+          <p class="lowongan-meta-waktu">Diposting 1 minggu yang lalu</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white">
+      <div class="container bg-white produk-rsk">
+        <div class="mitra-header bg-white">
+          <h3>Mitra RSK</h3>
+        </div>
+        <div class="mitra-sub-header bg-white">
+          <p class="">Rumah Siap Kerja dipercaya oleh institusi terbaik di Indonesia.</p>
+        </div>
+      
+        <div class="mitra-logo-container bg-white">
+          <div class="bg-white w-25">
+            <img
+              src="assets/img/mitra-1.png"
+              alt="mitra-rsk"
+              width="110"
+              height="62"
+              class="bg-white"
+            />
+          </div>
+
+          <div class="bg-white w-25">
+            <img
+              src="assets/img/mitra-2.png"
+              alt="mitra-rsk"
+              width="110"
+              height="73"
+              class="bg-white"
+            />
+          </div>
+  
+          <div class="bg-white w-25">
+            <img
+              src="assets/img/mitra-3.png"
+              alt="mitra-rsk"
+              width="110"
+              height="64"
+              class="bg-white"
+            />
+          </div>
+  
+          <div class="bg-white w-25">
+            <img
+              src="assets/img/mitra-4.png"
+              alt="mitra-rsk"
+              width="110"
+              height="83"
+              class="bg-white"
+            />
+          </div>
+        </div>
+
+        <div class="mitra-logo-container bg-white">
+          <div class="bg-white w-25">
+            <img
+              src="assets/img/mitra-5.png"
+              alt="mitra-rsk"
+              width="110"
+              height="35"
+              class="bg-white"
+            />
+          </div>
+
+          <div class="bg-white w-25">
+            <img
+              src="assets/img/mitra-6.png"
+              alt="mitra-rsk"
+              width="66"
+              height="60"
+              class="bg-white"
+            />
+          </div>
+  
+          <div class="bg-white w-25">
+            <img
+              src="assets/img/mitra-7.png"
+              alt="mitra-rsk"
+              width="60"
+              height="66"
+              class="bg-white"
+            />
+          </div>
+  
+          <div class="bg-white w-25">
+            <img
+              src="assets/img/mitra-8.png"
+              alt="mitra-rsk"
+              width="60"
+              height="61"
+              class="bg-white"
+            />
+          </div>
+
+        </div>
+
+        <div class="mitra-logo-container bg-white">
+          <div class="bg-white w-25">
+            <img
+              src="assets/img/mitra-9.png"
+              alt="mitra-rsk"
+              width="110"
+              height="46"
+              class="bg-white"
+            />
+          </div>
+
+          <div class="bg-white w-25">
+            <img
+              src="assets/img/mitra-10.png"
+              alt="mitra-rsk"
+              width="110"
+              height="43"
+              class="bg-white"
+            />
+          </div>
+  
+          <div class="bg-white w-25">
+            <img
+              src="assets/img/mitra-11.png"
+              alt="mitra-rsk"
+              width="110"
+              height="45"
+              class="bg-white"
+            />
+          </div>
+  
+          <div class="bg-white w-25">
+            <img
+              src="assets/img/mitra-12.png"
+              alt="mitra-rsk"
+              width="110"
+              height="75"
+              class="bg-white"
+            />
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-prime">
+      <div class="container bg-prime">
+        <div class="footer-container">
+          <div class="w-25 footer-logo-container">
+            <img
+              src="assets/img/logo.svg"
+              alt="mitra-rsk"
+              width="160"
+              height="160"
+            />
+            <h5 class="clr-white"><strong>Rumah Siap Kerja</strong></h5>
+          </div>
+
+          <div class="w-10 footer-link-container">
+            <div class="footer-link">
+              <a href="#" class="clr-white">Beranda</a>
+            </div>
+            <div class="footer-link">
+              <a href="#" class="clr-white">Kelas</a>
+            </div>
+            <div class="footer-link">
+              <a href="#" class="clr-white">Lowongan</a>
+            </div>
+            <div class="footer-link">
+              <a href="#" class="clr-white">Perusahaan</a>
+            </div>
+          </div>
+
+          <div class="w-20 footer-link-container">
+            <div class="footer-link">
+              <a href="#" class="clr-white">Syarat & Ketentuan</a>
+            </div>
+            <div class="footer-link">
+              <a href="#" class="clr-white">Tentang Kami</a>
+            </div>
+          </div>
+
+          <div class="w-30 footer-contact-container">
+            <div class="footer-contact">
+              <img
+                src="assets/img/contact-1.svg"
+                alt="contact-img"
+                width="30"
+                height="30"
+              />
+              <a href="#" class="clr-white">Jl. Bulungan No.26, Jakarta Selatan, DKI Jakarta 12130</a>
+            </div>
+            <div class="footer-contact">
+              <img
+                src="assets/img/contact-2.svg"
+                alt="contact-img"
+                width="30"
+                height="30"
+              />
+              <a href="#" class="clr-white">Rumah Siap Kerja</a>
+            </div>
+            <div class="footer-contact">
+              <img
+                src="assets/img/contact-3.svg"
+                alt="contact-img"
+                width="30"
+                height="30"
+              />
+              <a href="#" class="clr-white">@rumahsiapkerja</a>
+            </div>
+            <div class="footer-contact">
+              <img
+                src="assets/img/contact-4.svg"
+                alt="contact-img"
+                width="30"
+                height="30"
+              />
+              <a href="#" class="clr-white">info@rumahsiapkerja.com</a>
+            </div>
+            <div class="footer-contact">
+              <img
+                src="assets/img/contact-5.svg"
+                alt="contact-img"
+                width="30"
+                height="30"
+              />
+              <a href="#" class="clr-white">0812 1844 1399</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-prime footer-rights">
+          <p class="clr-white">© Rumah Siap Kerja 2021. All Rights Reserved.</p> 
+          <p class="clr-white">PT. Samala Serasi Unggul</p>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="assets/javascript/carousel.js"></script>
+    <script type="text/javascript" src="assets/javascript/sticky-headers.js"></script>
+  </body>
+</html>
